@@ -7,16 +7,16 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.bingym.com": dockerHub,
-  "quay.bingym.com": "https://quay.io",
-  "gcr.bingym.com": "https://gcr.io",
-  "k8s-gcr.bingym.com": "https://k8s.gcr.io",
-  "k8s.bingym.com": "https://registry.k8s.io",
-  "ghcr.bingym.com": "https://ghcr.io",
-  "cloudsmith.bingym.com": "https://docker.cloudsmith.io",
+  "docker.alwaysbeta.cn": dockerHub,
+  "quay.alwaysbeta.cn": "https://quay.io",
+  "gcr.alwaysbeta.cn": "https://gcr.io",
+  "k8s-gcr.alwaysbeta.cn": "https://k8s.gcr.io",
+  "k8s.alwaysbeta.cn": "https://registry.k8s.io",
+  "ghcr.alwaysbeta.cn": "https://ghcr.io",
+  "cloudsmith.alwaysbeta.cn": "https://docker.cloudsmith.io",
 
   // staging
-  "docker-staging.bingym.com": dockerHub,
+  "docker-staging.alwaysbeta.cn": dockerHub,
 };
 
 function routeByHosts(host) {

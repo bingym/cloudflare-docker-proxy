@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-  { pattern = "docker.bingym.com", custom_domain = true },
-  { pattern = "quey.bingym.com", custom_domain = true },
-  { pattern = "gcr.bingym.com", custom_domain = true },
-  { pattern = "k8s-gcr.bingym.com", custom_domain = true },
-  { pattern = "k8s.bingym.com", custom_domain = true },
-  { pattern = "ghcr.bingym.com", custom_domain = true },
-  { pattern = "cloudsmith.bingym.com", custom_domain = true },
+  { pattern = "docker.alwaysbeta.cn", custom_domain = true },
+  { pattern = "quey.alwaysbeta.cn", custom_domain = true },
+  { pattern = "gcr.alwaysbeta.cn", custom_domain = true },
+  { pattern = "k8s-gcr.alwaysbeta.cn", custom_domain = true },
+  { pattern = "k8s.alwaysbeta.cn", custom_domain = true },
+  { pattern = "ghcr.alwaysbeta.cn", custom_domain = true },
+  { pattern = "cloudsmith.alwaysbeta.cn", custom_domain = true },
 ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-route = { pattern = "docker-staging.bingym.com", custom_domain = true }
+route = { pattern = "docker-staging.alwaysbeta.cn", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
